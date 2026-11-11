@@ -1,0 +1,534 @@
+/* ============================================================
+   1. REGISTRO DE FUENTES LOCALES (Glyphicons y FontAwesome)
+   ============================================================ */
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'),
+       url('../fonts/glyphicons-halflings-regular.woff') format('woff'),
+       url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+       url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+       url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+       url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+       url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+       url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings' !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-plus:before    { content: "\2b" !important; }
+.glyphicon-trash:before   { content: "\e020" !important; }
+.glyphicon-pencil:before  { content: "\270f" !important; }
+.glyphicon-search:before  { content: "\e003" !important; }
+.glyphicon-refresh:before { content: "\e031" !important; }
+.glyphicon-ok:before      { content: "\e013" !important; }
+.glyphicon-edit:before    { content: "\e065" !important; }
+
+.fa {
+  display: inline-block;
+  font-family: 'FontAwesome' !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================================
+   2. BOTONES Y FORMULARIOS
+   ============================================================ */
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-bottom: 0;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.btn-xs { padding: 2px 6px; font-size: 11px; border-radius: 3px; }
+.btn-sm { padding: 4px 8px; font-size: 12px; border-radius: 3px; }
+
+.btn-primary { color: #fff !important; background-color: #337ab7 !important; border-color: #2e6da4 !important; }
+.btn-success { color: #fff !important; background-color: #5cb85c !important; border-color: #4cae4c !important; }
+.btn-warning { color: #fff !important; background-color: #f0ad4e !important; border-color: #eea236 !important; }
+.btn-danger  { color: #fff !important; background-color: #d9534f !important; border-color: #d43f3a !important; }
+.btn-info    { color: #fff !important; background-color: #5bc0de !important; border-color: #46b8da !important; }
+.btn-default { color: #333 !important; background-color: #fff !important; border-color: #ccc !important; }
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 4px 8px;
+  font-size: 13px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+}
+
+/* Ajustes de botones dentro de celdas de la tabla */
+.table .btn {
+  width: 24px !important;
+  height: 24px !important;
+  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.table .btn .glyphicon,
+.table .btn .glyphicon:before {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 11px !important;
+  line-height: 1 !important;
+  display: block !important;
+  position: relative !important;
+  top: 0px !important;
+}
+
+/* ============================================================
+   3. ESTILOS BASE DE LA TABLA (ESCRITORIO)
+   ============================================================ */
+#table_responsive th { 
+  background-color: #4f52e3 !important;
+  color: #ffffff !important; 
+  font-weight: bold; 
+  font-size: 12px;
+  text-align: center;
+  padding: 6px 8px !important;
+}
+
+#table_responsive td {
+  font-size: 12px;
+  padding: 5px 8px !important;
+  vertical-align: middle;
+  border: 1px solid #cccccc;
+}
+
+table.dataTable, .table {
+  width: 100% !important;
+  margin-bottom: 15px;
+  background-color: #ffffff;
+  border-collapse: collapse !important;
+}
+
+.table-bordered, table.dataTable.table-bordered {
+  border: 1px solid #b2b2b2 !important;
+}
+
+/* CONTROLES DATATABLES */
+.dataTables_length {
+  float: left !important;
+  clear: left !important;
+  margin-bottom: 6px !important;
+  font-size: 13px !important;
+}
+
+.dataTables_length select {
+  width: 60px !important;
+  height: 28px !important;
+  padding: 2px 4px !important;
+  border: 1px solid #b2b2b2 !important;
+  border-radius: 3px !important;
+  text-align: center !important;
+  margin: 0 4px !important;
+}
+
+.dt-buttons {
+  clear: left !important;
+  float: left !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  border: 1px solid #dcdcdc !important;
+  border-radius: 6px !important;
+  padding: 3px 10px !important;
+  margin-top: 2px !important;
+  margin-bottom: 10px !important;
+  background-color: #ffffff !important;
+}
+
+.dt-buttons .btn {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 2px 8px !important;
+  margin: 0 !important;
+}
+
+.dataTables_filter {
+  float: right !important;
+  margin-bottom: 8px !important;
+  font-size: 13px !important;
+}
+
+.dataTables_filter input {
+  height: 28px !important;
+  padding: 3px 8px !important;
+  border: 1px solid #b2b2b2 !important;
+  border-radius: 3px !important;
+}
+
+/* Ocultar el botón toggle (+/-) en pantallas grandes */
+@media only screen and (min-width: 961px) {
+  .btn-toggle-row {
+    display: none !important;
+  }
+}
+
+/* ============================================================
+   4. PAGINACIÓN UNIFICADA (ALINEADA A LA DERECHA EN PC)
+   ============================================================ */
+.dataTables_wrapper .dataTables_paginate {
+  float: right !important;
+  margin: 8px 0 12px 0 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate ul.pagination {
+  display: inline-flex !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+  border: 1px solid #cccccc !important;
+  border-radius: 6px !important;
+  background-color: #ffffff !important;
+  overflow: hidden !important;
+}
+
+.dataTables_wrapper .dataTables_paginate ul.pagination > li {
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.dataTables_wrapper .dataTables_paginate ul.pagination > li > a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 32px !important;
+  min-width: 36px !important;
+  padding: 0 10px !important;
+  margin: 0 !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: #337ab7 !important;
+  background-color: #ffffff !important;
+  border: none !important;
+  border-right: 1px solid #e0e0e0 !important;
+  text-decoration: none !important;
+  box-sizing: border-box !important;
+}
+
+.dataTables_wrapper .dataTables_paginate ul.pagination > li:last-child > a {
+  border-right: none !important;
+}
+
+.dataTables_wrapper .dataTables_paginate ul.pagination > li.active > a {
+  background-color: #337ab7 !important;
+  color: #ffffff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate ul.pagination > li.disabled > a {
+  color: #888888 !important;
+  cursor: not-allowed !important;
+  background-color: #ffffff !important;
+}
+
+.modal-backdrop {
+  display: none !important;
+}
+
+/* ============================================================
+   5. COMPONENTES COLVIS (DATATABLES)
+   ============================================================ */
+html body div.dt-button-collection *,
+html body div.dt-button-collection *::before,
+html body div.dt-button-collection *::after {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+html body div.dt-button-collection {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  border: 1px solid #d0d7de !important;
+  border-radius: 8px !important;
+  padding: 8px !important;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.12) !important;
+}
+
+html body div.dt-button-collection a.dt-button,
+html body div.dt-button-collection button.dt-button,
+html body div.dt-button-collection .dropdown-item {
+  display: block !important;
+  width: 100% !important;
+  text-align: left !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  line-height: 22px !important;
+  padding: 6px 12px !important;
+  margin: 2px 0 !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  border: none !important;
+  white-space: nowrap !important;
+}
+
+html body div.dt-button-collection a.dt-button.active,
+html body div.dt-button-collection button.dt-button.active,
+html body div.dt-button-collection .dropdown-item.active {
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  color: #5c6bc0 !important;
+}
+
+html body div.dt-button-collection a.dt-button.active span,
+html body div.dt-button-collection button.dt-button.active span {
+  color: #5c6bc0 !important;
+}
+
+html body div.dt-button-collection a.dt-button:not(.active),
+html body div.dt-button-collection button.dt-button:not(.active),
+html body div.dt-button-collection .dropdown-item:not(.active) {
+  background-color: #5c6bc0 !important;
+  background: #5c6bc0 !important;
+  color: #ffffff !important;
+}
+
+html body div.dt-button-collection a.dt-button:not(.active) span,
+html body div.dt-button-collection button.dt-button:not(.active) span {
+  color: #ffffff !important;
+}
+
+/* ============================================================
+   6. MODO OSCURO (DARK MODE)
+   ============================================================ */
+body.dark-mode, 
+[data-bs-theme="dark"] body {
+  background-color: #282A42 !important;
+}
+
+body.dark-mode table.dataTable tbody tr,
+[data-bs-theme="dark"] table.dataTable tbody tr {
+  background-color: #242538 !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode table.dataTable.stripe tbody tr.odd,
+body.dark-mode table.dataTable.display tbody tr.odd,
+[data-bs-theme="dark"] table.dataTable.stripe tbody tr.odd {
+  background-color: #2d2e47 !important;
+}
+
+body.dark-mode input.form-control,
+body.dark-mode select.form-control,
+body.dark-mode textarea.form-control,
+[data-bs-theme="dark"] input.form-control,
+[data-bs-theme="dark"] select.form-control,
+[data-bs-theme="dark"] textarea.form-control {
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  background-color: #30334E !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode input.form-control:focus,
+body.dark-mode select.form-control:focus,
+body.dark-mode textarea.form-control:focus,
+[data-bs-theme="dark"] input.form-control:focus,
+[data-bs-theme="dark"] select.form-control:focus,
+[data-bs-theme="dark"] textarea.form-control:focus {
+  border-color: #5d60ef !important;
+  box-shadow: 0 0 0 0.2rem rgba(93, 96, 239, 0.25) !important;
+}
+
+body.dark-mode .form-control::placeholder,
+[data-bs-theme="dark"] .form-control::placeholder {
+  color: #8c8ea7 !important;
+}
+
+body.dark-mode .form-floating > label,
+[data-bs-theme="dark"] .form-floating > label {
+  color: #8c8ea7 !important;
+  background-color: transparent !important;
+}
+
+body.dark-mode .form-floating > .form-control:focus ~ label,
+[data-bs-theme="dark"] .form-floating > .form-control:focus ~ label {
+  color: #5d60ef !important;
+}
+
+body.dark-mode .modal-content,
+[data-bs-theme="dark"] .modal-content {
+  border: 1px solid rgba(255, 255, 255, 0.4) !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6) !important;
+}
+
+body.dark-mode .modal-header,
+body.dark-mode .modal-footer,
+[data-bs-theme="dark"] .modal-header,
+[data-bs-theme="dark"] .modal-footer {
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* ============================================================
+   7. ESTRUCTURA RESPONSIVA GLOBAL PARA TABLAS (MÓVIL)
+   ============================================================ */
+@media only screen and (max-width: 960px),
+(min-device-width: 960px) and (max-device-width: 1024px) {  
+
+  .table-responsive,
+  .dataTables_wrapper,
+  .content {
+    overflow: visible !important;
+    overflow-x: visible !important;
+  }
+
+  .content #table_responsive, 
+  .content table, 
+  .content thead, 
+  .content tbody, 
+  .content th, 
+  .content td, 
+  .content tr { 
+    display: block; 
+  }
+
+  #table_responsive thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    max-width: 50%;
+  }
+
+  #table_responsive {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+  }
+
+  #table_responsive tr { 
+    border: 1px solid #333333 !important; 
+    margin-bottom: 2px !important;
+    position: relative;
+  }
+
+  #table_responsive td:not(.td_inter) { 
+    border: none;
+    border-bottom: 1px solid #cccccc; 
+    position: relative;
+    padding-left: 32% !important; 
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    min-height: 24px;
+    line-height: 20px;
+    vertical-align: middle;
+    box-sizing: border-box;
+  }
+
+  .table_inter tr { 
+    border: none !important; 
+  }
+
+  table#table_responsive td:not(.td_inter):before { 
+    position: absolute;
+    z-index: 2;
+    top: 0; 
+    bottom: 0;
+    left: 0; 
+    width: 30%; 
+    background: #666cff; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 11px;
+    padding-left: 6px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+  }
+
+  #table_responsive tfoot {
+    display: none;
+  }
+
+  /* Control dinámico de celdas desplegables (+ / -) */
+  #table_responsive tr td:nth-of-type(n+3) {
+    display: none;
+  }
+
+  #table_responsive tr.shown td:nth-of-type(n+3),
+  #table_responsive tr td.shown {
+    display: block !important;
+  }
+
+  /* Botón desplegable e inputs en móviles */
+  .btn-toggle-row {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    z-index: 10;
+    outline: none;
+    line-height: 1;
+  }
+
+  #table_responsive tr td:nth-of-type(1) {
+    padding-right: 45px !important;
+  }
+
+  .dt-buttons {
+    display: none !important;
+  }
+
+  .dataTables_length, .dataTables_filter {
+    float: none !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate {
+    float: none !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin: 12px 0 !important;
+  }
+}

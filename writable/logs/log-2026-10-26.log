@@ -1,0 +1,80 @@
+CRITICAL - 2026-10-26 12:25:22 --> Error: Class "control_mysql" not found
+[Method: POST, Route: LoginController/iniciar_sesion]
+in APPPATH\Models\LoginModel.php on line 75.
+ 1 APPPATH\Controllers\LoginController.php(49): App\Models\LoginModel->consultar_datos_usuario('ADMIN', 'fwalmai', 'WEB')
+ 2 APPPATH\Controllers\LoginController.php(32): App\Controllers\LoginController->validar_sesion('ADMIN', 'fwalmai', 'WEB')
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LoginController->iniciar_sesion()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-26 12:26:06 --> Error: Class "control_mysql" not found
+[Method: POST, Route: LoginController/iniciar_sesion]
+in APPPATH\Models\LoginModel.php on line 75.
+ 1 APPPATH\Controllers\LoginController.php(49): App\Models\LoginModel->consultar_datos_usuario('ADMIN', 'fwalmai', 'WEB')
+ 2 APPPATH\Controllers\LoginController.php(32): App\Controllers\LoginController->validar_sesion('ADMIN', 'fwalmai', 'WEB')
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LoginController->iniciar_sesion()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-26 12:26:25 --> Error: Class "control_mysql" not found
+[Method: POST, Route: LoginController/iniciar_sesion]
+in APPPATH\Models\LoginModel.php on line 75.
+ 1 APPPATH\Controllers\LoginController.php(49): App\Models\LoginModel->consultar_datos_usuario('ADMIN', 'fwalmai', 'WEB')
+ 2 APPPATH\Controllers\LoginController.php(32): App\Controllers\LoginController->validar_sesion('ADMIN', 'fwalmai', 'WEB')
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LoginController->iniciar_sesion()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-26 12:30:07 --> Error: Class "control_mysql" not found
+[Method: POST, Route: LoginController/iniciar_sesion]
+in APPPATH\Models\LoginModel.php on line 75.
+ 1 APPPATH\Controllers\LoginController.php(74): App\Models\LoginModel->consultar_datos_usuario('ADMIN', 'fwalmai', 'WEB')
+ 2 APPPATH\Controllers\LoginController.php(32): App\Controllers\LoginController->validar_sesion('ADMIN', 'fwalmai', 'WEB')
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LoginController->iniciar_sesion()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-26 12:30:27 --> Error: Class "control_mysql" not found
+[Method: POST, Route: LoginController/iniciar_sesion]
+in APPPATH\Models\LoginModel.php on line 75.
+ 1 APPPATH\Controllers\LoginController.php(74): App\Models\LoginModel->consultar_datos_usuario('ADMIN', 'fwalmai', 'WEB')
+ 2 APPPATH\Controllers\LoginController.php(32): App\Controllers\LoginController->validar_sesion('ADMIN', 'fwalmai', 'WEB')
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LoginController->iniciar_sesion()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-26 12:37:15 --> Error: Class "control_mysql" not found
+[Method: POST, Route: LoginController/iniciar_sesion]
+in APPPATH\Models\LoginModel.php on line 75.
+ 1 APPPATH\Controllers\LoginController.php(49): App\Models\LoginModel->consultar_datos_usuario('ADMIN', 'fwalmai', 'WEB')
+ 2 APPPATH\Controllers\LoginController.php(32): App\Controllers\LoginController->validar_sesion('ADMIN', 'fwalmai', 'WEB')
+ 3 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\LoginController->iniciar_sesion()
+ 4 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 5 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-26 14:08:23 --> ErrorException: Undefined property: CodeIgniter\View\View::$load
+[Method: GET, Route: MenuController/menu]
+in APPPATH\Views\menu\index.php on line 62.
+ 1 APPPATH\Views\menu\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Views\\menu\\index.php', 62)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\aso-web-4\\app\\Views\\menu\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('menu/index', [], true)
+ 5 APPPATH\Controllers\MenuController.php(36): view('menu/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MenuController->menu()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

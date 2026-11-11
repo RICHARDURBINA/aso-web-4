@@ -1,0 +1,15 @@
+/* ========================================================= */
+/* ETIQUETAS LATERALES MÓVILES - VISTA ESPECÍFICA            */
+/* ========================================================= */
+
+@media only screen and (max-width: 960px),
+(min-device-width: 960px) and (max-device-width: 1024px) {
+
+    .content td:nth-of-type(1):before { content: ""; }
+    .content td:nth-of-type(2):before { content: "Est."; }
+    .content td:nth-of-type(3):before { content: "Placa"; }
+    .content td:nth-of-type(4):before { content: "Tipo/Vehículo"; }
+    .content td:nth-of-type(5):before { content: "Capacidad"; }
+    .content td:nth-of-type(6):before { content: "Tipo/Cola"; }
+
+}

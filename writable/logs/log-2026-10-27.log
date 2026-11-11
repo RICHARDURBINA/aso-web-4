@@ -1,0 +1,312 @@
+CRITICAL - 2026-10-27 10:02:19 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:02:29 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:05:06 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:06:01 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:06:12 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:07:52 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:19:50 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:20:45 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:20:48 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:20:52 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:21:19 --> ParseError: syntax error, unexpected double-quoted string "holamundo"
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Controllers\PedidoController.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Controllers\\PedidoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PedidoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PedidoController')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\PedidoController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('PedidoController/pedido')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:21:20 --> ParseError: syntax error, unexpected double-quoted string "holamundo"
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Controllers\PedidoController.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Controllers\\PedidoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PedidoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PedidoController')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\PedidoController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('PedidoController/pedido')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:21:21 --> ParseError: syntax error, unexpected double-quoted string "holamundo"
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Controllers\PedidoController.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Controllers\\PedidoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PedidoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PedidoController')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\PedidoController')
+ 5 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('PedidoController/pedido')
+ 7 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:23:11 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:23:13 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:23:13 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:23:13 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:23:13 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:24:43 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:24:43 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-27 10:24:43 --> ErrorException: include_once(C:\xampp\htdocs\aso-web-4\../conexion_mysql.php): Failed to open stream: No such file or directory
+[Method: GET, Route: PedidoController/pedido]
+in APPPATH\Models\PedidoModel.php on line 17.
+ 1 APPPATH\Models\PedidoModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(C:\\xampp\\htdocs\\aso-web-4\\../conexion_mysql.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php', 17)
+ 2 APPPATH\Models\PedidoModel.php(17): include_once()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\aso-web-4\\app\\Models\\PedidoModel.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\PedidoModel')
+ 6 APPPATH\Controllers\PedidoController.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\PedidoModel')
+ 7 SYSTEMPATH\CodeIgniter.php(944): App\Controllers\PedidoController->__construct()
+ 8 SYSTEMPATH\CodeIgniter.php(511): CodeIgniter\CodeIgniter->createController()
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,10 @@
+CRITICAL - 2026-10-29 12:19:22 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<http:"
+[Method: GET, Route: CobranzaController/form_consultar_cobranza/%3Chttp:/localhost/aso-web-4/public/content/template/assets/vendor/js/helpers.js]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars('CobranzaController/form_consultar_cobranza/<http:/localhost/aso-web-4/public/content/template/assets/vendor/js/helpers.js')
+ 2 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('CobranzaController/form_consultar_cobranza/<http:/localhost/aso-web-4/public/content/template/assets/vendor/js/helpers.js')
+ 3 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

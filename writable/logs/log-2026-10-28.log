@@ -1,0 +1,128 @@
+CRITICAL - 2026-10-28 08:53:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "error/index.php"
+[Method: GET, Route: VisitaController/listavisita]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('error/index', [], true)
+ 3 APPPATH\Controllers\VisitaController.php(92): view('error/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\VisitaController->listavisita()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitaController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 09:06:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "error/index.php"
+[Method: GET, Route: VisitaController/form_consultar_visita/29574130]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('error/index', [], true)
+ 3 APPPATH\Controllers\VisitaController.php(266): view('error/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\VisitaController->form_consultar_visita('29574130')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitaController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 09:09:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "error/index.php"
+[Method: GET, Route: VisitaController/form_consultar_visita/29574130]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('error/index', [], true)
+ 3 APPPATH\Controllers\VisitaController.php(266): view('error/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\VisitaController->form_consultar_visita('29574130')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitaController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 09:17:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "error/index.php"
+[Method: GET, Route: VisitaController/form_consultar_visita/29574130]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('error/index', [], true)
+ 3 APPPATH\Controllers\VisitaController.php(266): view('error/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\VisitaController->form_consultar_visita('29574130')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitaController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 09:28:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "error/index.php"
+[Method: GET, Route: VisitaController/form_consultar_visita/29574130]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('error/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('error/index', [], true)
+ 3 APPPATH\Controllers\VisitaController.php(267): view('error/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\VisitaController->form_consultar_visita('29574130')
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VisitaController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 12:46:13 --> ErrorException: Undefined variable $Model_usuario
+[Method: GET, Route: CobranzaController/listacobranza]
+in APPPATH\Views\menu\_containerheader.php on line 3.
+ 1 APPPATH\Views\menu\_containerheader.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Model_usuario', 'C:\\xampp\\htdocs\\aso-web-4\\app\\Views\\menu\\_containerheader.php', 3)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\aso-web-4\\app\\Views\\menu\\_containerheader.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('menu/_containerheader', [], true)
+ 5 APPPATH\Views\error\index.php(59): view('menu/_containerheader')
+ 6 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\aso-web-4\\app\\Views\\error\\index.php')
+ 7 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('error/index', [], true)
+ 9 APPPATH\Controllers\CobranzaController.php(138): view('error/index', [...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\CobranzaController->listacobranza()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobranzaController))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 13:13:58 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: CobranzaController/%3C]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars('CobranzaController/<')
+ 2 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('CobranzaController/<')
+ 3 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 13:14:16 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: CobranzaController/%3C]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars('CobranzaController/<')
+ 2 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('CobranzaController/<')
+ 3 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 13:18:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: CobranzaController/%3C]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars('CobranzaController/<')
+ 2 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('CobranzaController/<')
+ 3 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 13:21:19 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: CobranzaController/%3C]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars('CobranzaController/<')
+ 2 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('CobranzaController/<')
+ 3 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-10-28 13:27:35 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "<"
+[Method: GET, Route: CobranzaController/%3C]
+in SYSTEMPATH\Router\Router.php on line 768.
+ 1 SYSTEMPATH\Router\Router.php(217): CodeIgniter\Router\Router->checkDisallowedChars('CobranzaController/<')
+ 2 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('CobranzaController/<')
+ 3 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

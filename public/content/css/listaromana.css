@@ -1,0 +1,312 @@
+/* ========================================================================== */
+/* ESTILOS PARA EL CONTROL DE VEHÍCULOS (4 COLUMNAS Y MODO CLARO/OSCURO)      */
+/* ========================================================================== */
+
+.cv-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.cv-column {
+    background-color: #fafbfc;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    max-height: 490px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* -------------------------------------------------------------------------- */
+/* CONFIGURACIÓN PARA PC / PANTALLAS GRANDES (Cuatro columnas lado a lado)     */
+/* -------------------------------------------------------------------------- */
+@media (min-width: 992px) {
+    .cv-column {
+        flex: 0 0 calc(25% - 9px);
+        max-width: calc(25% - 9px);
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* CONFIGURACIÓN PARA MÓVILES Y TABLETS (Se apilan verticalmente)             */
+/* -------------------------------------------------------------------------- */
+@media (max-width: 991px) {
+    .cv-column {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+}
+
+.cv-column-header {
+    padding: 10px 12px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* COLORES MODO CLARO (LIGHT MODE) - 4 CATEGORÍAS                             */
+/* -------------------------------------------------------------------------- */
+.cv-header-recepcion { 
+    background-color: rgba(255, 179, 0, 0.18); 
+    color: #b7791f; 
+    border-bottom: 2px solid rgba(255, 179, 0, 0.3);
+}
+
+.cv-header-muestreo { 
+    background-color: rgba(13, 202, 240, 0.15); 
+    color: #087990; 
+    border-bottom: 2px solid rgba(13, 202, 240, 0.3);
+}
+
+.cv-header-pesaje { 
+    background-color: rgba(111, 66, 193, 0.15); 
+    color: #59359a; 
+    border-bottom: 2px solid rgba(111, 66, 193, 0.3);
+}
+
+.cv-header-descargado { 
+    background-color: rgba(25, 135, 84, 0.15); 
+    color: #146c43; 
+    border-bottom: 2px solid rgba(25, 135, 84, 0.3);
+}
+
+.cv-cards-container {
+    padding: 10px;
+    overflow-y: auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cv-card-item {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 10px 12px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    border: 1px solid #edf2f7;
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cv-card-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.cv-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+
+.cv-truck-code {
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #2d3748;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cv-driver-badge {
+    font-size: 0.62rem;
+    background: #edf2f7;
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: #4a5568;
+    font-weight: 500;
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cv-plate {
+    font-size: 0.75rem;
+    color: #718096;
+    margin-bottom: 0;
+}
+
+.cv-status-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot-warning    { background-color: #ffb300; }
+.dot-primary    { background-color: #0dcaf0; }
+.dot-purple     { background-color: #6f42c1; }
+.dot-success    { background-color: #198754; }
+
+.cv-column-footer {
+    padding: 8px 12px;
+    border-top: 1px solid #e2e8f0;
+    background: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.cv-pagination-btn {
+    background: #f8f9fa;
+    border: 1px solid #cbd5e1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    color: #475569;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.cv-pagination-btn:hover:not(:disabled) {
+    background: #e2e8f0;
+    color: #1e293b;
+}
+
+.cv-pagination-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* -------------------------------------------------------------------------- */
+/* SOPORTE PARA MODO OSCURO (DARK MODE)                                       */
+/* -------------------------------------------------------------------------- */
+[data-bs-theme="dark"] .cv-column {
+    background-color: #232333 !important;
+    border-color: #3b3c54 !important;
+}
+
+[data-bs-theme="dark"] .cv-column-header {
+    border-bottom-color: #3b3c54 !important;
+}
+
+[data-bs-theme="dark"] .cv-header-recepcion {
+    background-color: rgba(255, 179, 0, 0.12) !important;
+    color: #ffca28 !important;
+}
+
+[data-bs-theme="dark"] .cv-header-muestreo {
+    background-color: rgba(13, 202, 240, 0.12) !important;
+    color: #3dd5f3 !important;
+}
+
+[data-bs-theme="dark"] .cv-header-pesaje {
+    background-color: rgba(111, 66, 193, 0.15) !important;
+    color: #b197fc !important;
+}
+
+[data-bs-theme="dark"] .cv-header-descargado {
+    background-color: rgba(25, 135, 84, 0.15) !important;
+    color: #75b798 !important;
+}
+
+[data-bs-theme="dark"] .cv-column-footer {
+    background-color: #232333 !important;
+    border-top-color: #3b3c54 !important;
+}
+
+[data-bs-theme="dark"] .cv-card-item {
+    background: #2b2c40 !important;
+    border-color: #3b3c54 !important;
+}
+
+[data-bs-theme="dark"] .cv-truck-code {
+    color: #f1f1f6 !important;
+}
+
+[data-bs-theme="dark"] .cv-driver-badge {
+    background: #35364f !important;
+    color: #cfd0df !important;
+}
+
+[data-bs-theme="dark"] .cv-plate {
+    color: #a3a4b8 !important;
+}
+
+
+
+
+/* ========================================================================== */
+/* ESTILOS MEJORADOS PARA LA LISTA DE TOP PROVEEDORES                         */
+/* ========================================================================== */
+
+.tp-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.tp-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.tp-name {
+    font-weight: 600;
+    color: #334155;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 62%;
+}
+
+.tp-kilos {
+    font-weight: 700;
+    font-size: 0.82rem;
+}
+
+.tp-progress-bar-bg {
+    background-color: #f1f5f9;
+    border-radius: 6px;
+    height: 10px; /* Altura intermedia más elegante y gruesa */
+    width: 100%;
+    overflow: hidden;
+}
+
+.tp-progress-bar-fill {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.4s ease;
+}
+
+/* Soporte automático para Modo Oscuro */
+[data-bs-theme="dark"] .tp-name {
+    color: #f1f1f6 !important;
+}
+
+[data-bs-theme="dark"] .tp-progress-bar-bg {
+    background-color: #2b2c40 !important;
+}
+
+/* Forzar el estilo de línea inferior azul en las pestañas de Almacenes para que coincidan con Recepción */
+#almacenesTabs .nav-link {
+    background: transparent !important;
+    color: #697a8d !important;
+    border: none !important;
+    border-bottom: 2px solid transparent !important;
+}
+
+#almacenesTabs .nav-link.active {
+    background: transparent !important;
+    color: #696cff !important; /* Color primario azul/morado del template */
+    border-bottom: 2px solid #696cff !important;
+}
